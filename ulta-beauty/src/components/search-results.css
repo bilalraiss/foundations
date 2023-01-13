@@ -1,0 +1,4 @@
+.verticalCheckBox > .ant-checkbox-wrapper {
+    display: flex;
+    margin-inline-start: 0;
+}
