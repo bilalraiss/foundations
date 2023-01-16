@@ -9,7 +9,6 @@ jobs:
      - uses: actions/setup-node@v3
        with:
          node-version: '14'
-     - run: pwd
-     - run: ls -la
+     - run: cd ulta-beauty
      - run: npm i
      - run: npm run start
