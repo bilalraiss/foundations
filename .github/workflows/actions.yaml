@@ -9,7 +9,8 @@ jobs:
      - uses: actions/setup-node@v3
        with:
          node-version: '14'
-     - working-directory: ./ulta-beauty
+     - name: chnaging dir
+       working-directory: ./ulta-beauty
      - run: pwd
      - run: npm i
     # - run: npm run start
