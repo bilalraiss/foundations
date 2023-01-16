@@ -11,6 +11,6 @@ jobs:
          node-version: '14'
      - name: chnaging dir
        working-directory: ./ulta-beauty
-       run: pwd
-     - run: npm i
+       run: npm i
+     - run: npm run start
     # - run: npm run start
