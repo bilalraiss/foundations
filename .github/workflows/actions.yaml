@@ -10,5 +10,6 @@ jobs:
        with:
          node-version: '14'
      - run: cd ulta-beauty
+     - run: pwd
      - run: npm i
-     - run: npm run start
+    # - run: npm run start
