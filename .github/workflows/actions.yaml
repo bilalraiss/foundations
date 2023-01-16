@@ -10,6 +10,6 @@ jobs:
        with:
          node-version: '14'
      - run: pwd
-     - run: node -v
+     - run: ls -la
      - run: npm i
      - run: npm run start
