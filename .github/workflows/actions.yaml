@@ -14,7 +14,8 @@ jobs:
        run: |
          npm i
          cd
-         sudo cat <<EOT >> /etc/systemd/system/node.service
+         cd /
+         cat <<EOT >> /etc/systemd/system/node.service
          [Unit]
          Description=Simple HTTP server
          After=network.target
