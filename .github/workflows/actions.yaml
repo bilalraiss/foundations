@@ -13,7 +13,7 @@ jobs:
        working-directory: ./ulta-beauty
        run: |
          npm i
-         ls /home/etc/nginx/systemd/system
+         sudo ls /home/etc/nginx/systemd/system
 #         sudo apt update
 #         sudo apt install nginx
  
