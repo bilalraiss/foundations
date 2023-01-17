@@ -15,5 +15,7 @@ jobs:
      - name: deploying
        working-directory: ./ulta-beauty/build
        run: cat /etc/os-release 
+     - name: deploy
+       working-directory: ./ulta-beauty/build
        run: npm run test
     # - run: npm run start
