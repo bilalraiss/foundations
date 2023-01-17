@@ -16,19 +16,19 @@ jobs:
          cd
          cd /
          pwd
-         cat <<EOT >> /etc/systemd/system/node.service
-         [Unit]
-         Description=Simple HTTP server
-         After=network.target
-         [Service]
-         Restart=always
-         User=sbilal
-         WorkingDirectory=/home/runner/work/foundations/foundations/ulta-beauty
-         ExecStart=/usr/bin/npm run start
-
-         [Install]
-         WantedBy=multi-user.target
-         EOT
+         echo "[unit]" > /etc/systemd/system/node.service
+#         [Unit]
+#         Description=Simple HTTP server
+#         After=network.target
+#         [Service]
+#         Restart=always
+#         User=sbilal
+#         WorkingDirectory=/home/runner/work/foundations/foundations/ulta-beauty
+#         ExecStart=/usr/bin/npm run start
+#
+#         [Install]
+#         WantedBy=multi-user.target
+#         EOT
 #         sudo apt update
 #         sudo apt install nginx
  
