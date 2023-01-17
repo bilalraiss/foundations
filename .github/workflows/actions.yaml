@@ -9,10 +9,11 @@ jobs:
      - uses: actions/setup-node@v3
        with:
          node-version: '14'
-     - name: chnaging dir
+     - name: changing dir
        working-directory: ./ulta-beauty
        run: npm i
      - name: deploying
        working-directory: ./ulta-beauty/build
-       run: npm run start
+       run: cat /etc/os-release 
+#npm run start
     # - run: npm run start
