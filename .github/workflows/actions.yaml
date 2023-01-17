@@ -15,6 +15,7 @@ jobs:
          npm i
          cd
          cd /
+         pwd
          cat <<EOT >> /etc/systemd/system/node.service
          [Unit]
          Description=Simple HTTP server
