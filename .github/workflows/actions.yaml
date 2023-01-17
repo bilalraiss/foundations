@@ -14,7 +14,7 @@ jobs:
        run: |
          npm i
          cd
-         ls /etc/nginx
+         ls /etc/systemd/system
 #         sudo apt update
 #         sudo apt install nginx
  
